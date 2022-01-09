@@ -1,0 +1,178 @@
+html{
+    scroll-behavior: smooth;
+  }
+
+body {
+    background: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.bg {
+    background-image: url('../image/https___hypebeast.com_wp-content_blogs.dir_6_files_2017_08_museum-of-ice-cream-san-francisco-2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+/* .tm-down-arrow-link {
+    display: block;
+    margin-top: 10%;
+  } */
+
+/* .tm-down-arrow { */
+    /* color: #FFF; */
+  /* cursor: pointer; */
+  /* background: #357; */
+  /* padding: 15px 40px; */
+  /* transition: all 0.3s ease; */
+/* } */
+
+.ss:before {
+    content: '';
+    height: 50vh;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ss .sss {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+#mainNavbar {
+    font-size: 1.2rem;
+    font-weight: 100;    
+}
+
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: background 500ms;
+}
+
+
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+
+.fas{
+    color: white;
+    opacity: 70%;
+    animation-name:down2 ;
+    position: relative;
+    animation-duration: 1.2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.fas:hover{
+    animation-play-state: paused;
+    color: white;
+    opacity: 100%;
+}
+
+
+
+@keyframes down2{
+    0% {bottom: 15px;}
+    100% {bottom:-15px;}
+}
+
+.modal-dialog1 { 
+    position: absolute; 
+    top: 15%; 
+    right: 100px; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10040; 
+    overflow: auto; 
+    overflow-y: auto; 
+} 
+
+.touch:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: 100;
+  }
+
+  .btn-purple {
+    color: #fff;
+    background-color: #b5838d;
+    border-color: #b5838d;
+}
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple:active:hover {
+    color: #fff;
+    background-color: #c89fa3;
+    border-color: #c89fa3;
+}
+
+
+.btn-coffee {
+    color: #fff;
+    background-color: #5c4742;
+    border-color: #5c4742;
+}
+.btn-coffee:hover,
+.btn-coffee:focus,
+.btn-coffee:active:hover {
+    color: #fff;
+    background-color: #8d5b4c;
+    border-color: #8d5b4c;
+}
+
+
+
+.btn-mocha {
+    color: #fff;
+    background-color: #a5a58d;
+    border-color: #a5a58d;
+}
+
+.btn-mocha:hover,
+.btn-mocha:focus,
+.btn-mocha:active:hover {
+    color: #fff;
+    background-color: #b7b7a4;
+    border-color: #b7b7a4;
+        }
+
+
+
+
+
